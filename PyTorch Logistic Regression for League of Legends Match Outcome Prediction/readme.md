@@ -93,4 +93,4 @@ Course: Introduction to Neural Networks with PyTorch - IBM Skills Network
 
 ⭐ Star this repo if you find it helpful!
 
-**Contact**: your.email@example.com | [GitHub](https://github.com/yourusername)
+**Contact**: solangiumair213@gmail.com | [GitHub Repository](https://github.com/umairhussainn/ML-Projects-and-Assignments)
