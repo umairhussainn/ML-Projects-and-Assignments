@@ -1,15 +1,12 @@
-"""
-Configuration file for Movie Recommendation System
-Contains all constants and configuration variables
-"""
+
 
 import os
 
 # Project Information
 PROJECT_NAME = "Movie Recommendation System"
 VERSION = "1.0.0"
-AUTHOR = "Your Name"  # Replace with your name
-GITHUB_URL = "https://github.com/YOUR_USERNAME/movie-recommendation-system"  # Replace with your GitHub URL
+AUTHOR = "Umair Hussain"
+GITHUB_URL = "https://github.com/umairhussainn"  
 
 # Data Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
