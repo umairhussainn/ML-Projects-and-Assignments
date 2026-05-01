@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Loading datasets
-movies = pd.read_csv("ml-latest-small/movies.csv")
-ratings = pd.read_csv("ml-latest-small/ratings.csv")
+movies = pd.read_csv(os.path.join(BASE_DIR, "data/ml-latest-small/movies.csv"))
+ratings = pd.read_csv(os.path.join(BASE_DIR, "data/ml-latest-small/ratings.csv"))
 
 # Merging datasets
 movie_ratings = pd.merge(ratings, movies, on='movieId')
