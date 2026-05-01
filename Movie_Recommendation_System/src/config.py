@@ -24,7 +24,7 @@ MAX_RECOMMENDATIONS = 20
 
 # UI Configuration
 PAGE_TITLE = "Movie Recommender"
-PAGE_ICON = "🎬"
+PAGE_ICON = ""
 LAYOUT = "wide"
 
 # Color Scheme
@@ -33,7 +33,7 @@ SECONDARY_COLOR = "#808080"  # Gray
 BACKGROUND_COLOR = "#f0f2f6"  # Light Gray
 
 # Messages
-SUCCESS_MESSAGE = "✅ Found {count} movies similar to '{movie}'"
-ERROR_MESSAGE = "❌ '{movie}' not found in the database."
+SUCCESS_MESSAGE = " Found {count} movies similar to '{movie}'"
+ERROR_MESSAGE = " '{movie}' not found in the database."
 LOADING_MESSAGE = "Loading movie database..."
 FINDING_MESSAGE = "Finding similar movies..."
