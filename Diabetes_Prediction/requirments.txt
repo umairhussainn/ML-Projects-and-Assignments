@@ -1,0 +1,6 @@
+
+echo streamlit==1.40.0 > requirements.txt
+echo xgboost==3.2.0 >> requirements.txt
+echo scikit-learn==1.7.2 >> requirements.txt
+echo joblib==1.5.3 >> requirements.txt
+echo numpy==2.2.6 >> requirements.txt
